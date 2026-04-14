@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import LinkButton from './components/LinkButton';
+import Button from './components/Button';
 import ScrollToTopButton from './components/ScrollToTopButton';
 
 export default function Home() {
@@ -42,11 +42,11 @@ export default function Home() {
               contínuo da plataforma.
             </p>
             <div className="flex justify-center gap-4">
-              <LinkButton
+              <Button
                 text="Explorar Simulações"
                 href="/scenarios"
               />
-              <LinkButton
+              <Button
                 text="Saiba Mais"
                 href='#sobre'
                 variant="secondary"
@@ -155,7 +155,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <LinkButton
+            <Button
               text="Explorar Simulações"
               href="/scenarios"
             />
